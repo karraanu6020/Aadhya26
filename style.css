@@ -1,0 +1,154 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    line-height: 1.6;
+}
+/* Header */
+header {
+    background-color: #142d4e;
+    color: white;
+    padding: 25px 15px;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #00d4ff;
+}
+/* Sections */
+section {
+    background-color: white;
+    margin: 25px auto;
+    padding: 35px;
+    width: 85%;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+section h2 {
+    color: #087e8b;
+    margin-bottom: 15px;
+}
+/* About */
+#about {
+    text-align: center;
+    padding: 60px 30px;
+}
+#about h2 {
+    font-size: 32px;
+}
+#about h3 {
+    color: #142d4e;
+    margin-bottom: 15px;
+}
+/* Projects */
+.project {
+    background-color: #eaf5f8;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+/* Contact Button */
+button {
+    background-color: #087e8b;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: #142d4e;
+}
+/* Footer */
+footer {
+    background-color: #142d4e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+    section {
+        width: 94%;
+        padding: 22px;
+    }
+    #about h2 {
+        font-size: 25px;
+    }
+}
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #087e8b;
+    margin-bottom: 20px;
+}
+/* Professional Enhancements */
+/* Navigation Hover Effect */
+nav a {
+    transition: color 0.3s ease;
+}
+/* Section Hover Effect */
+section {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+/* Project Cards Hover */
+.project {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.project:hover {
+    transform: translateY(-5px);
+    background-color: #d9f0f4;
+}
+/* Contact Links */
+#contact a {
+    color: #087e8b;
+    text-decoration: none;
+    font-weight: bold;
+}
+#contact a:hover {
+    color: #142d4e;
+    text-decoration: underline;
+}
+/* Button Animation */
+button {
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
+}
+button:hover {
+    transform: scale(1.05);
+}
+
